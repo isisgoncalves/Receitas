@@ -18,7 +18,7 @@ time, mark, audio, video {
 }
 
 body{
-  background-image:url("image/background.jpg");
+  background-image:url("image/75096196ed6cebeb50d53f7a55e013c2.jpg");
   background-repeat: no-repeat;
   width:100vw;
   height: 100vh;
@@ -36,10 +36,14 @@ nav ul {
 
   ul li a {
   text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
   }
 
   ul li a:hover {
-    font-weight: bold;
+  font-weight: bold;
+  color: brown;
   }
 
   #home, h1, p{
@@ -51,10 +55,33 @@ nav ul {
   text-align: center;
   }
 
+ h2, img, ul, ol {
+  margin: 30px; 
+  }
+
+  ol{
+    margin-bottom: 50px;
+  }
+
+  img {
+  margin-bottom: 0;
+  }
+
+  h4{
+  margin-top: 40px;
+  }
+
+  .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #daneteCaseiro{
-    text-align: center;
+  text-align: center;
   }
 
   #footer, h3{
-    text-align: center;
+  text-align: center;
+  padding: 100px;
   }
