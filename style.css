@@ -27,6 +27,7 @@ body{
   background-size: cover;
 }
 nav ul {
+  font-family: 'EB Garamond', serif;
   display: flex;
   list-style: none;
   gap: 150px;
@@ -47,20 +48,24 @@ nav ul {
   }
 
   #home, h1, p{
+  font-family: 'EB Garamond', serif;
   text-align: center;
   margin: 100px;
   }
 
   #boloDeBanana {
+  font-family: 'EB Garamond', serif;
   text-align: center;
   }
 
  h2, img, ul, ol {
+  font-family: 'EB Garamond', serif;
   margin: 30px; 
   }
 
   ol{
-    margin-bottom: 50px;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 50px;
   }
 
   img {
@@ -68,20 +73,24 @@ nav ul {
   }
 
   h4{
+  font-family: 'EB Garamond', serif;
   margin-top: 40px;
   }
 
   .lista {
+    font-family: 'EB Garamond', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   #daneteCaseiro{
+  font-family: 'EB Garamond', serif;
   text-align: center;
   }
 
   #footer, h3{
+  font-family: 'EB Garamond', serif;
   text-align: center;
   padding: 100px;
   }
