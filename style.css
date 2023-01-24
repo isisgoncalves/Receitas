@@ -20,8 +20,6 @@ time, mark, audio, video {
 body{
   background-image:url("image/background.jpg");
   background-repeat: no-repeat;
-  width:100vw;
-  height: 100vh;
   position: relative;
   background-attachment:fixed;
   background-size: cover;
@@ -30,9 +28,10 @@ nav ul {
   font-family: 'Dancing Script', cursive;
   font-size: larger;
   display: flex;
+  justify-content: center;
   list-style: none;
+  margin-left: 125px;
   gap: 150px;
-  margin-left: 420px;
   padding: 0;
 }
 
